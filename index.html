@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Defi Pirates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="sticky top-0 w-full z-30">
+
+    <nav class="relative flex flex-row items-center justify-center w-full text-black bg-white gap-24 text-lg py-4 shadow-xl">
+        <div class="log font-bold w-full md:w-fit mx-auto md:mx-0 pl-6 md:pl-0">Defi Pirates</div>
+        <div>
+            <ul class="md:flex flex-row gap-6 hidden ">
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://opensea.io/collection/defi-pirates-3">OpenSea</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://etherscan.io/address/0x59495c3a15200d2f1a4e509b17954f5bca85748b">Etherscan</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://x2y2.io/collection/defi-pirates-3/items">X2x2</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://twitter.com/defipiratesnft">Twitter</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://discord.com">Discord</a></li>
+            </ul>
+        </div>
+        <!-- mob nav -->
+    <div id="menu-icon" class="block transition-all duration-200 ease-in-out md:hidden absolute right-0 pr-6 cursor-pointer w-fit ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+    </div>
+        
+        <!-- close nav -->
+        <div id="close-nav" class="hidden transition-all duration-200 ease-in-out md:hidden absolute right-0 pr-6 cursor-pointer w-fit ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+              </svg>
+        </div>
+
+
+       
+
+    </nav>
+    <div id="mob-nav" class="md:hidden hidden w-1/2 absolute right-0 top-0 bg-teal-900 h-screen -z-30">
+        <ul class="flex flex-col items-center justify-center h-full text-white  gap-6 ">
+            <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://opensea.io/collection/defi-pirates-3">OpenSea</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://etherscan.io/address/0x59495c3a15200d2f1a4e509b17954f5bca85748b">Etherscan</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://x2y2.io/collection/defi-pirates-3/items">X2x2</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://twitter.com/defipiratesnft">Twitter</a></li>
+                <li class="hover:text-pink-600 transition-all ease-in-out"><a href="https://discord.com">Discord</a></li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="main flex items-center justify-center pb-24 md:pb-0 mt-72 md:mt-12">
+
+        <div class="w-fit relative">
+            <!-- mint info -->
+            <div class="bg-teal-900  bg-opacity-50 absolute  w-full -top-64  md:top-0  md:-left-72 my-0 md:my-14 rounded-t-lg md:rounded-l-lg px-4 pt-4 pb-12 md:pb-4 -z-10">
+                <div class="text-xl space-y-4 pb-24 md:pb-0">
+                    <div>
+                        <span class="font-bold">Price: </span>
+                        <span>0.002 ETH</span>
+                    </div>
+                    <div>
+                        <span class="font-bold">Supply: </span>
+                        <span>10000</span>
+                    </div>
+                    <div>
+                        <span class="font-bold">Max Per Mint: </span>
+                        <span>10</span>
+                    </div>
+                    <div>
+                        <span class="font-bold">Max Wallet Mint: </span>
+                        <span>10</span>
+                    </div>
+                    <div>
+                        <span class="font-bold">Description: </span>  <br>
+                        <span>xxdv tr5uu 7788 jii99</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-full">
+                <!-- Minting Gif -->
+                <div class="w-full shadow-xl">
+                    <img src="./assets/defi pirates nft.gif" alt="mint-nft" class="w-96 md:w-auto md:h-96 rounded-lg">
+                </div>
+                <!-- Minting + Connect Wallet Button -->
+                <div class="bg-white w-96  text-md text-center rounded-lg mt-6 p-2 shadow-xl border border-1 border-black border-opacity-20">
+                     <div class="mint >
+
+                <div data-id="a280ad2" data-element_type="widget" data-widget_type="html.default">
+                    <div >
+                        <script type="module"
+                            src="https://cdn.nft-generator.art/js-sdk/v1.4.1/nft-art-generator-sdk/nft-art-generator-sdk.esm.js"></script>
+                        <script nomodule
+                            src="https://cdn.nft-generator.art/js-sdk/v1.4.1/nft-art-generator-sdk/nft-art-generator-sdk.js"></script>
+                        <meta name="nft-art-contract-abi"
+                            content="W3sibmFtZSI6ImFmZmlsaWF0ZXNPZiIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W3sibmFtZSI6Im93bmVyIiwidHlwZSI6ImFkZHJlc3MiLCJpbnRlcm5hbFR5cGUiOiJhZGRyZXNzIn1dLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6InVpbnQyNTYiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MjU2In1dLCJzdGF0ZU11dGFiaWxpdHkiOiJ2aWV3In0seyJuYW1lIjoiYmFsYW5jZU9mIiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbeyJuYW1lIjoib3duZXIiLCJ0eXBlIjoiYWRkcmVzcyIsImludGVybmFsVHlwZSI6ImFkZHJlc3MifV0sIm91dHB1dHMiOlt7Im5hbWUiOiIiLCJ0eXBlIjoidWludDI1NiIsImludGVybmFsVHlwZSI6InVpbnQyNTYifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJjb3N0IiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbXSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJ1aW50MjU2IiwiaW50ZXJuYWxUeXBlIjoidWludDI1NiJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6Im1heEZyZWVNaW50IiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbXSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJ1aW50MzIiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MzIifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJtYXhQZXJNaW50IiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbXSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJ1aW50MzIiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MzIifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJtYXhQZXJXYWxsZXQiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6InVpbnQzMiIsImludGVybmFsVHlwZSI6InVpbnQzMiJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6Im1pbnQiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOlt7Im5hbWUiOiJjb3VudCIsInR5cGUiOiJ1aW50MjU2IiwiaW50ZXJuYWxUeXBlIjoidWludDI1NiJ9XSwib3V0cHV0cyI6W10sInN0YXRlTXV0YWJpbGl0eSI6InBheWFibGUifSx7Im5hbWUiOiJtaW50Q29zdE9mT3duZXIiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOlt7Im5hbWUiOiJfYWRkcmVzcyIsInR5cGUiOiJhZGRyZXNzIiwiaW50ZXJuYWxUeXBlIjoiYWRkcmVzcyJ9LHsibmFtZSI6Il9jb3VudCIsInR5cGUiOiJ1aW50MjU2IiwiaW50ZXJuYWxUeXBlIjoidWludDI1NiJ9XSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJ1aW50MjU2IiwiaW50ZXJuYWxUeXBlIjoidWludDI1NiJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6Im5hbWUiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6InN0cmluZyIsImludGVybmFsVHlwZSI6InN0cmluZyJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6Im9wZW4iLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6ImJvb2wiLCJpbnRlcm5hbFR5cGUiOiJib29sIn1dLCJzdGF0ZU11dGFiaWxpdHkiOiJ2aWV3In0seyJuYW1lIjoib3duZXIiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6ImFkZHJlc3MiLCJpbnRlcm5hbFR5cGUiOiJhZGRyZXNzIn1dLCJzdGF0ZU11dGFiaWxpdHkiOiJ2aWV3In0seyJuYW1lIjoicHJlc2FsZU1pbnQiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOlt7Im5hbWUiOiJjb3VudCIsInR5cGUiOiJ1aW50MzIiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MzIifSx7Im5hbWUiOiJwcm9vZiIsInR5cGUiOiJieXRlczMyW10iLCJpbnRlcm5hbFR5cGUiOiJieXRlczMyW10ifV0sIm91dHB1dHMiOltdLCJzdGF0ZU11dGFiaWxpdHkiOiJwYXlhYmxlIn0seyJuYW1lIjoicHJlc2FsZU9wZW4iLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6ImJvb2wiLCJpbnRlcm5hbFR5cGUiOiJib29sIn1dLCJzdGF0ZU11dGFiaWxpdHkiOiJ2aWV3In0seyJuYW1lIjoicmVmZXJyYWxDYXAiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6InVpbnQyNTYiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MjU2In1dLCJzdGF0ZU11dGFiaWxpdHkiOiJ2aWV3In0seyJuYW1lIjoicmVmZXJyYWxNaW50IiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbeyJuYW1lIjoiY291bnQiLCJ0eXBlIjoidWludDMyIiwiaW50ZXJuYWxUeXBlIjoidWludDMyIn0seyJuYW1lIjoicmVmZXJyZXIiLCJ0eXBlIjoiYWRkcmVzcyIsImludGVybmFsVHlwZSI6ImFkZHJlc3MifV0sIm91dHB1dHMiOltdLCJzdGF0ZU11dGFiaWxpdHkiOiJwYXlhYmxlIn0seyJuYW1lIjoicmVmZXJyYWxPcGVuIiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbXSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJib29sIiwiaW50ZXJuYWxUeXBlIjoiYm9vbCJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6InJldmVhbGVkIiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbXSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJib29sIiwiaW50ZXJuYWxUeXBlIjoiYm9vbCJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6InN1cHBseSIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W10sIm91dHB1dHMiOlt7Im5hbWUiOiIiLCJ0eXBlIjoidWludDI1NiIsImludGVybmFsVHlwZSI6InVpbnQyNTYifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJ0b3RhbFN1cHBseSIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W10sIm91dHB1dHMiOlt7Im5hbWUiOiIiLCJ0eXBlIjoidWludDI1NiIsImludGVybmFsVHlwZSI6InVpbnQyNTYifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifV0=">
+                        </meta>
+                        <style>
+                            .nft-art-gen-section{
+                                /* background: #ffcc00; */
+                                /* border: #121515 1px solid; */
+                                /* padding: 10px; */
+                                /* border-radius: 10px; */
+                                width: fit-content;
+                                margin: 0 auto;
+
+                            }
+                            .nft-art-gen-section button {
+                                text-align: center;
+                                background: pink;
+                                color: #000000;
+                                font-size: 18px;
+                                border-radius: 10px;
+                                padding-inline: 26px;
+                                padding-block: 12px;
+                                line-height: 100%;
+                                height: auto;
+                                border: 5px solid #000000;
+                                border: none;
+                            }
+
+                            .nft-art-gen-section select {
+                                /* background: #121515; */
+                                color: #000000;
+                                font-size: 18px;
+                                border-radius: 10px;
+                                padding-inline: 26px;
+                                padding-block: 8px;
+                                line-height: 100%;
+                                height: auto;
+                                border: 0 0 0 1px solid #000000;
+                                outline: none;
+                                /* border: none; */
+                            }
+                        </style>
+                        <meta name="nft-art-contract-presale" content="W10=">
+
+                        </meta>
+
+                        <nftart-mint-button class="bg-orange-400" address="0x59495C3a15200d2f1a4E509B17954f5BCA85748B" chain-id="1" />
+                        <style>
+                            .nft-art-gen-mint-progress {
+                                display: none;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-col gap-y-2">
+
+                    </div>
+                    <button id="rampp-minting-button-f075b598-c03b-4cd5-b3c4-a1ea03e0939e" class="hidden"
+                        data-styles="eyJvcGVuIjp7InRleHQiOm51bGwsInN0eWxlcyI6bnVsbH0sInBhdXNlZCI6eyJ0ZXh0IjpudWxsLCJzdHlsZXMiOm51bGx9LCJzdXBwbHlSZWFjaGVkIjp7InRleHQiOm51bGwsInN0eWxlcyI6bnVsbH0sImVycm9yIjp7InRleHQiOm51bGwsInN0eWxlcyI6bnVsbH0sImNsYWltVGV4dCI6eyJ0ZXh0IjpudWxsLCJzdHlsZXMiOm51bGx9LCJxdWFudGl0eSI6eyJ0ZXh0IjpudWxsLCJzdHlsZXMiOm51bGx9fQ=="
+                        data-abi-link="https://firebasestorage.googleapis.com/v0/b/nft-rampp.appspot.com/o/solidity_outputs%2FNbnj41uRbn1hn5tY0u7o%2FBlurbeanzContract_data-003ac6e4-1b0b-44f3-a739-da8fc02cebfe.json?alt=media"
+                        data-redirect="" data-contract-address="0x4a3F0F5eF06AdC5eAa4708D766A03C5d5E32B50d"
+                        data-show-claim-count="false" data-network="ethereum" data-format="multi" data-erc20-payments=""
+                        data-use-winter="false" data-custom-mode="true">null</button>
+
+                    <script type="text/javascript" src="https://mintplex.xyz/embeds/v2.1/embed.js"
+                        data-uuid="e2c7e7e5-51ef-4130-b811-fbdaa5bbb3ef"></script>
+                    <script type="text/javascript" src="https://mintplex.xyz/embeds/v2.1/embed.js"
+                        data-uuid="f075b598-c03b-4cd5-b3c4-a1ea03e0939e"></script>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>

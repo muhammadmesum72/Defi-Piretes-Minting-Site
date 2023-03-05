@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background: url(./assets/clouds.png);
+    /* background-position: center; */
+    background-attachment: fixed;
+    /* background-clip: border-box; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: skyblue;
+    /* background-origin: content-box; */
+}
+
+#mob-nav{
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s ease-in-out; */
+    animation: animate  alternate 0.5s ease-in-out;
+}
+
+#menu-icon{
+    animation: easy  alternate 0.2s ease-in-out;
+
+}
+
+#close-nav{
+    animation: easy  alternate 0.2s ease-in-out;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        width: 0;
+    }
+    100%{
+        opacity: 100;
+        width: full;
+    }
+    
+}
+
+@keyframes easy {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+    
+}
